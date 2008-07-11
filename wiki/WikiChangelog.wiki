@@ -1,0 +1,44 @@
+#summary Changelog
+
+===2008-07-10 Version 2.0.5 BETA `parse.php`===
+ * Rewrote the SQL INSERT queries for MySQLi.
+
+===2008-07-10 Version 2.0.4 BETA `parse.php`===
+ * Fixed issue with MySQL queries.
+
+===2008-07-10 Version 2.0.3 BETA `parse.php`===
+ * Fixed bug with MySQL queries involving setting a spell's rank.
+
+===2008-07-09 Version 2.0.2 BETA `parse.php`===
+ * Fixed bug with determination of using MySQL or MySQLi
+
+===2008-06-03 Version 2.0.1 BETA `parse.php`, `wowhead.php`, `xml.php`===
+ * Added PHP4 compatible XML parser to add PHP4 support.
+ * Script now properly handles ranks of spells that do not exist. (will return error)
+ * XML parser will be determined by your webserver's PHP version (4 = xml.php, 5 = SimpleXML).
+
+===2008-06-02 Version 2.0 BETA===
+ * Initial release
+
+===2008-05-30 `config.php`, `functions.php`===
+ * Fixed issue with item's not being parsed correctly.
+ * Changed XML parser to SimpleXML.
+ * Script will now correctly handle items that were not parsed correctly, will return an error.
+ * Fixed bug when striping headers.
+
+===2008-05-28 `config.php`, `functions.php`===
+ * Option added to force a language was added.
+ * Reading from Wowhead was changed to use 3 methods depending on what they have enabled.  First cURL, then file_get_contents(), and finally fsockopen().
+
+===2008-05-27 `parse.php`, `functions.php`===
+ * Now handles quests and spells by their name, as well as their ID.
+ * Multiple language support added for Wowhead's native languages (French, English, German, and Spanish).  Language used depends on the user's preferences for the forum.
+
+===2008-05-24 `parse.php`, `functions.php`===
+ * Added quest and spell support, by using their IDs.
+
+===2008-05-23 `parse.php`===
+ * Fixed bug with user's who's forums use MySQLi, rather than MySQL.
+
+===2008-05-05 `parse.php`===
+ * MySQL redone to use phpBB's connection to the database.  This allows the script's table to reside in phpBB's database.
