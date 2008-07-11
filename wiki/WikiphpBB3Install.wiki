@@ -1,3 +1,4 @@
+#summary phpBB3 Installation Instructions
 =phpBB3 Installation Instructions=
 
  * Download the zip file from [http://code.google.com/p/wowheadtooltips/downloads/list]
