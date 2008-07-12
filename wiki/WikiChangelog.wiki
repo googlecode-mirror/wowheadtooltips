@@ -1,5 +1,9 @@
 #summary Changelog
 
+===2008-07-11 Version 2.1 `parse.php`===
+ * Script was released as a stable version.
+ * Fixed issue with table scheme.
+
 ===2008-07-10 Version 2.0.5 BETA `parse.php`===
  * Rewrote the SQL INSERT queries for MySQLi.
 
