@@ -1,5 +1,8 @@
 #summary Changelog
 
+===2008-07-14 Version 2.1.1 `wowhead.php`===
+ * Changed the method by which the script determines which XML parser to use.  It will still check if you have PHP5, and if you do it will check if you have the SimpleXML functionality enabled.
+
 ===2008-07-11 Version 2.1 `parse.php`===
  * Script was released as a stable version.
  * Fixed issue with table scheme.
