@@ -12,9 +12,9 @@ include_once($phpbb_root_rath . 'wowhead/parse.php');
 }}}
  * Next, inside the same file, look for the following lines:
 {{{
-			// Parse the message and subject
-			$message = censor_text($row['post_text']);
-			$message = str_replace("\n", '<br />', $message);
+// Parse the message and subject
+$message = censor_text($row['post_text']);
+$message = str_replace("\n", '<br />', $message);
 }}}
  * Immediately after it add:
 {{{
