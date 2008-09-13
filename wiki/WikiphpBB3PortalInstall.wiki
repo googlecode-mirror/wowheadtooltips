@@ -8,7 +8,7 @@ include($phpbb_root_path . 'includes/message_parser.'.$phpEx);
 }}}
  * Immediately after it add:
 {{{
-include_once($phpbb_root_rath . 'wowhead/parse.php');
+include_once($phpbb_root_path . 'wowhead/parse.php');
 }}}
  * Next, inside the same file, look for the following lines:
 {{{
